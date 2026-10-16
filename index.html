@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Scentify | Find Your Signature Scent</title>
+    <meta 
+      name="description"
+      content="Discover your signature scent with Scentify. Explore fragrances made to express your personality."
+    />
+    <link
+      rel="stylesheet"
+      href="https://pyscript.net/releases/2025.2.3/core.css"
+    />
+    <script type="module" src="https://pyscript.net/releases/2025.2.3/core.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+  
+    <header class="site-header">
+      <div class="container navbar">
+        <a href="index.html" class="logo">
+          <img src="assets/scentify_logo.png" alt="Scentify Logo" />
+          <span>Scentify</span>
+        </a>
+
+        <button
+          type="button"
+          class="menu-toggle"
+          aria-label="Toggle navigation"
+          aria-expanded="false"
+        >
+          ☰
+        </button>
+
+        <nav class="nav-links">
+          <a href="index.html" class="active">Home</a>
+          <a href="products.html">Products</a>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-content">
+          <div class="hero-text">
+
+            <h1>Find the Fragrance That Feels Like You.</h1>
+
+            <p>
+              Discover beautiful fragrances that express your personality,
+              complement your style, and make every moment unforgettable.
+            </p>
+
+            <div class="hero-buttons">
+              <a href="products.html" class="btn btn-primary">
+                Explore Our Perfumes
+              </a>
+
+              <a href="about.html" class="btn btn-secondary">
+                Discover Scentify
+              </a>
+            </div>
+          </div>
+
+          <div class="hero-image">
+            <img src="assets/home_perfume.jpg" alt="Elegant perfume bottle" />
+          </div>
+        </div>
+      </section>
+
+      <section class="featured-products section-padding">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">OUR COLLECTION</p>
+            <h2>Find Your Signature Scent</h2>
+            <p>Explore fragrances for every mood, moment, and personality.</p>
+          </div>
+
+          <div class="product-grid">
+            <article class="product-card">
+              <img src="assets/perfume1.png" alt="Floral perfume" />
+
+              <div class="product-info">
+                <h3>Blush Bloom</h3>
+                <p>A soft floral fragrance with a romantic feel.</p>
+                <a href="products.html" class="text-link"> Discover More → </a>
+              </div>
+            </article>
+
+            <article class="product-card">
+              <img src="assets/perfume2.jpg" alt="Fresh perfume" />
+
+              <div class="product-info">
+                <h3>Fresh Aura</h3>
+                <p>A clean, refreshing scent for everyday wear.</p>
+                <a href="products.html" class="text-link"> Discover More → </a>
+              </div>
+            </article>
+
+            <article class="product-card">
+              <img src="assets/perfume3.jpg" alt="Warm perfume" />
+
+              <div class="product-info">
+                <h3>Velvet Dusk</h3>
+                <p>A warm, elegant fragrance for special moments.</p>
+                <a href="products.html" class="text-link"> Discover More → </a>
+              </div>
+            </article>
+          </div>
+
+          <div class="center-button">
+            <a href="products.html" class="btn btn-primary">
+              View All Perfumes
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="advertisement section-padding">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">EXPERIENCE SCENTIFY</p>
+            <h2>A Fragrance Worth Remembering</h2>
+            <p>Discover the feeling behind every Scentify fragrance.</p>
+          </div>
+          <div class="ad-placeholder">
+            <video
+              id="perfume-ad"
+              controls
+              preload="metadata"
+              playsinline
+              
+            >
+              <source src="./assets/video_ad.mp4" type="video/mp4" />
+              Your browser does not support video playback.
+            </video>
+            <p>Discover your signature scent with Scentify.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="benefits section-padding">
+        <div class="container">
+          <div class="section-heading">
+            <h2>Why Choose Scentify?</h2>
+          </div>
+
+          <div class="benefits-grid">
+            <article class="benefit-card">
+              <div class="benefit-icon">✿</div>
+              <h3>Made for Your Style</h3>
+              <p>
+                Explore fragrances that complement your personality and
+                individual taste.
+              </p>
+            </article>
+
+            <article class="benefit-card">
+              <div class="benefit-icon">♡</div>
+              <h3>Everyday Elegance</h3>
+              <p>
+                Find a scent that makes everyday moments feel a little more
+                special.
+              </p>
+            </article>
+
+            <article class="benefit-card">
+              <div class="benefit-icon">✧</div>
+              <h3>Express Yourself</h3>
+              <p>
+                Let your fragrance become part of your identity and personal
+                story.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="cta-section section-padding">
+        <div class="container cta-content">
+          <h2>Make Every Moment Memorable.</h2>
+          <p>Find the fragrance that tells your story.</p>
+          <a href="products.html" class="btn btn-primary">
+            Explore the Collection
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-content">
+        <div class="footer-brand">
+          <h3>Scentify</h3>
+          <p>Find your signature scent.</p>
+        </div>
+
+        <div class="footer-links">
+          <a href="index.html">Home</a>
+          <a href="products.html">Products</a>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+        </div>
+
+        <p class="copyright">© 2026 Scentify. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script type="py" src="./main.py"></script> 
+  </body>
+</html>
